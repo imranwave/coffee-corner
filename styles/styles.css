@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* common style start */
+.primary-color {
+  color: #e9b44c;
+}
+/* common style end */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2e2622;
+  padding: 10px 10%;
+}
+.nav-left h1 {
+  font-size: 1rem;
+}
+.primary-color span {
+  color: #fff;
+  align-items: center;
+  padding: 0px 10px;
+}
+.nav-right ul {
+  display: flex;
+  gap: 30px;
+}
+.nav-right ul li {
+  list-style: none;
+}
+.nav-right ul li a {
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+}
+.nav-right ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  transition: width 0.3s ease;
+}
+/* Hover effect */
+.nav-right ul li a:hover::after {
+  width: 100%;
+}
+
+.nav-right ul li a:hover {
+  color: #e9b44c;
+}
+/* navbar End Hare*/
+/* header start hare */
+header {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../image/bg-image.avif");
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.header-content h5{
+font-weight: 400;
+letter-spacing: 1px;
+}
+.header-content h1{
+color: #fff;
+text-align: center;
+line-height: 1.5;
+}
+.header-content p{
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.5;
+}
+.header-content a button{
+    background-color: red;
+   border: none;
+   padding: 8px 13px;
+   border-radius: 50px;
+   background-color: #e9b44c;
+   font-weight: 600;
+   margin-top: 10px;
+}
+/* header start end */
