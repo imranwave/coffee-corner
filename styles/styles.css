@@ -127,3 +127,48 @@ header {
   margin-top: 10px;
 }
 /* story section code end */
+/* popular section code start */
+.popular-container{
+   background-color: #F1E7D8;
+  padding: 40px 80px;
+}
+.popular-content {
+    text-align: center;
+}
+.popular-content p{
+    font-size: 14px;
+    font-weight: 300;
+   
+}
+/* .coffee-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.coffee-content {
+   margin: 0px 40px;
+}
+.coffee-card p{
+    margin: 10px 0px;
+} */
+ .coffee-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+ }
+ .coffee-content {
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 13px;
+ }
+   .coffee-content h4{
+    margin-bottom: 4px;
+   }
+  .coffee-content p{
+    margin: 14px 0px;
+  }
+/* popular section code end */
